@@ -49,7 +49,7 @@ def main():
     dst = os.path.join(bindir, "countoken")
 
     if is_same_file(src, dst):
-        print(f"countoken is already installed and up-to-date at {dst}")
+        print("countoken is already installed and up-to-date")
         return
 
     try:
