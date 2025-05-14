@@ -1,0 +1,17 @@
+#!/usr/bin/env -S uv run --script
+# /// script
+# name = "countoken"
+# version = "0.0.1"
+# description = "Wrapper for ttok"
+# requires-python = ">=3.9"
+# dependencies = [
+#     "ttok",
+# ]
+# ///
+
+from ttok.cli import cli
+import warnings
+warnings.filterwarnings("ignore", category=UserWarning)
+
+if __name__ == "__main__":
+    cli()
