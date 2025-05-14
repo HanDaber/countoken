@@ -13,7 +13,7 @@ A minimal [uv](https://github.com/astral-sh/uv)-based wrapper for [ttok](https:/
 ## 🎬 Demo
 
 <p align="center">
-  <img src="demo.gif" alt="countoken demo" width="960">
+  <img src="demo.gif" alt="countoken demo" width="640">
 </p>
 
 ---
